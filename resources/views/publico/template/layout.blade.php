@@ -14,6 +14,7 @@
     <title>blog</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css">
     <link href="assets-publico/css/style.css" rel="stylesheet" type="text/css">
     <script src="https://use.fontawesome.com/07b0ce5d10.js"></script>
 </head>

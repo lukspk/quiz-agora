@@ -1950,6 +1950,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -20402,16 +20403,30 @@ var render = function() {
             attrs: { loading: _vm.loading, color: "green", size: "27px" }
           }),
           _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-default btn-lg loader-spinner",
+              on: {
+                click: function($event) {
+                  _vm.loading = true
+                }
+              }
+            },
+            [
+              _c("i", {
+                staticClass: "fa fa-gamepad",
+                staticStyle: { "margin-right": "5px" }
+              }),
+              _vm._v("Jogar")
+            ]
+          ),
+          _vm._v(" "),
           _c("img", {
             staticClass: "img-responsive",
             class: { loading: _vm.loading },
             staticStyle: { width: "100%" },
-            attrs: { src: "img/casamento.png" },
-            on: {
-              click: function($event) {
-                _vm.loading = true
-              }
-            }
+            attrs: { src: "img/casamento.png" }
           })
         ],
         1

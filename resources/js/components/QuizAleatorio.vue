@@ -8,7 +8,8 @@
         </div>
         <div>
             <pulse-loader :loading="loading" color="green" size="27px" class="loader-spinner"></pulse-loader>
-            <img src="img/casamento.png" @click="loading = true" style="width: 100%"  class="img-responsive" v-bind:class="{'loading' : loading}">
+            <button class="btn btn-default btn-lg loader-spinner" @click="loading = true"><i class="fa fa-gamepad" style="margin-right: 5px"></i>Jogar</button>
+            <img src="img/casamento.png" style="width: 100%"  class="img-responsive" v-bind:class="{'loading' : loading}">
         </div>
 
         <div class="content-footer">
